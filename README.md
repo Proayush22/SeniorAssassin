@@ -1,34 +1,5 @@
 # Senior Assassin Team Generator
 Senior Assassin Team Generator
-This project automates team communication and payment verification for Senior Assassin duos and trios.
-
-It consists of two main Python scripts:
-
-csvemail.py
-This script takes CSV exports of contacts and payments from HubSpot. It checks that all participants have completed payment and generates a new CSV file, team_data.csv, containing verified teams.
-
-finalemail.py
-This script reads team_data.csv and sends customized confirmation emails to each participant using SMTP through a Google account.
-
-How It Works:
-Export your contacts and payments CSV files from HubSpot.
-
-Run csvemail.py to verify payments and create team_data.csv.
-
-Run finalemail.py to automatically email all verified participants.
-
-Would you also like me to help you add a small "Usage" section, some badges (like Python version, dependencies), or a quick setup guide? That would make it even more GitHub-ready! 🚀
-
-
-
-
-
-
-
-You said:
-yeah sure
-ChatGPT said:
-Great! Here's an expanded version of the README that includes:
 
 Setup instructions
 
