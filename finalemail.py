@@ -8,7 +8,7 @@ import time
 SMTP_SERVER = "smtp.gmail.com"  # Change to your email provider's SMTP server
 SMTP_PORT = 587  # Change if your provider uses a different port
 SENDER_EMAIL = "sbseniorassassin2025@gmail.com"  # Change to your email address
-SENDER_PASSWORD = "mkcu dxtt mwdd amcj"  # Use an app password or your actual password
+SENDER_PASSWORD = ""  # Use an app password or your actual password
 
 def send_email(to_emails, subject, body):
     """

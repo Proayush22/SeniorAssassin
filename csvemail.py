@@ -12,9 +12,7 @@ from email.mime.multipart import MIMEMultipart
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "sbseniorassassin2025@gmail.com"
-# WARNING: Don't store passwords in the code. Consider using environment variables or a secure credentials manager
-# This is just for demonstration purposes
-#SENDER_PASSWORD = "mkcu dxtt mwdd amcj"  # Replace with actual password or use app password
+#SENDER_PASSWORD = ""  # Replace with actual password or use app password
 
 
 def parse_names(name_string):
